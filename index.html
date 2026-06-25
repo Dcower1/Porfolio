@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Diego Rojas G. Estudiante de Ingeniería en Informática">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="stylesheet" href="css/style.css"> 
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+
+    <title>Mi Portfolio</title>
+    
+    
+</head>
+<script src="js/script.js" defer></script>
+<body>
+    <div class="layout">
+        <aside class="side left"></aside>
+
+        <header class="full-header">
+            <nav id="nav">
+                <a class="brand" href="#main">D.R.G</a>
+                    <ul>
+                        <li><a href="#main">Home</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Porfolio</a></li>
+                        <li><a href="#about">Certificados</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                    <button id="menuButton" type="button" aria-label="Abrir menú">
+                        <i class='bx bx-menu'></i>
+                    </button>
+            </nav>
+        </header>
+        <main class="content" >
+            <!--Portada-->
+            <section class="container main-section" id="main">
+                <div class="main-wrapper">
+
+                    <div class="left">
+                            <div class="hero-badge">Full Stack · TI · Bases de datos · Automatización</div>
+                            <h2>Busco oportunidades en desarrollo</h2>
+
+                            <h3>Soy <span>Diego Alejandro Rojas González</span></h3>
+                            <p>
+                                Ingeniero en Informática <span class="marcado">orientado al desarrollo full stack, soporte TI, bases de datos y automatización</span>,
+                                con capacidad de análisis, trabajo en equipo y enfoque práctico.
+                                Me interesa construir soluciones útiles, mantener sistemas ordenados y aportar
+                                en equipos donde la mejora continua tenga impacto real.
+                                <span class="marcado">La Serena, Chile</span>.
+                            </p>
+
+                            <div class="hero-highlights">
+                                <div class="hero-highlight">
+                                    <span class="hero-highlight-value">Full Stack</span>
+                                    <span class="hero-highlight-label">Web, backend y soporte de sistemas</span>
+                                </div>
+                                <div class="hero-highlight">
+                                    <span class="hero-highlight-value">TI + DB</span>
+                                    <span class="hero-highlight-label">Procesos, datos y continuidad operativa</span>
+                                </div>
+                                <div class="hero-highlight">
+                                    <span class="hero-highlight-value">Automation</span>
+                                    <span class="hero-highlight-label">Flujos, integraciones y eficiencia</span>
+                                </div>
+                            </div>
+
+                            <div class="home-sci">
+                                <a href="https://www.linkedin.com/in/diego-rojas-gonz%C3%A1lez-7852523a1/" class="linkedin"><i class='bx bxl-linkedin-square '></i>  </a>
+                                <a href="https://github.com/Dcower1" class="github"><i class='bx bxl-github' ></i> </a>
+                                <a href="https://discord.gg/rW6K9xaC" class="discord"><i class='bx bxl-discord' ></i> </a>
+                            
+                
+                            </div>  
+                            <br>
+                             <div class="cv-button-wrap">
+                                  <a href="https://drive.google.com/file/d/1vkWoa3btpK56koOCRcDCfdaNHut7qQHe/view?usp=sharing" download><i class='bx bx-download'></i> Descargar cv</a>   
+                             </div>
+                            
+                    </div>
+                    <div class="right">
+                        <div class="hero-portrait">
+                            <div class="hero-portrait-bg"></div>
+                            <img src="img/img_portada1.png" alt="Foto de portada">
+                            <div class="hero-floating hero-floating-top">
+                                <span class="hero-floating-label">Disponible para trabajo</span>
+                                <span class="hero-floating-value">Full time</span>
+                            </div>
+                            <div class="hero-floating hero-floating-bottom">
+                                <span class="hero-floating-label">Stack principal</span>
+                                <span class="hero-floating-value">Full Stack · TI · DB</span>
+                            </div>
+                        </div>
+                            
+                    </div>
+                </div>
+            </section>
+
+
+           
+            <!--Skills-->
+            <section>
+                    
+                <div class="skills" id="skills">
+                    <div class="skills-shell">
+                        <div class="skills-intro">
+                            <div class="section-title skills-title">
+                                <h5>Skills</h5>
+                            </div>
+                            <h3>My Expertise</h3>
+                            <p>
+                                Estas son las áreas donde me muevo con más soltura. Combino desarrollo full stack,
+                                soporte TI, bases de datos y automatización para construir soluciones útiles y ordenadas.
+                            </p>
+
+                            <div class="skills-stats">
+                                <div class="stat-item">
+                                    <span class="stat-value">3+</span>
+                                    <span class="stat-label">Áreas de trabajo</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">7+</span>
+                                    <span class="stat-label">Tecnologías clave</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">1</span>
+                                    <span class="stat-label">Enfoque laboral</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="skills-cards">
+                            <div class="skill-card">
+                                <div class="skill-card-head">
+                                    <h5>Desarrollo</h5>
+                                    <span>Lenguajes y web</span>
+                                </div>
+                                <div class="skills-wrapper">
+                                    <div class="card-logo"><img src="img/css.svg" alt="CSS"></div>
+                                    <div class="card-logo"><img src="img/html5.svg" alt="HTML"></div>
+                                    <div class="card-logo"><img src="img/javascript.svg" alt="JavaScript"></div>
+                                    <div class="card-logo"><img src="img/python.svg" alt="Python"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-card-head">
+                                    <h5>Herramientas</h5>
+                                    <span>Entornos y apps</span>
+                                </div>
+                                <div class="skills-wrapper">
+                                    <div class="card-logo"><img src="img/vscode.svg" alt="VS Code"></div>
+                                    <div class="card-logo"><img src="img/pycharm.svg" alt="PyCharm"></div>
+                                    <div class="card-logo"><img src="img/android.svg" alt="Android Studio"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-card">
+                                <div class="skill-card-head">
+                                    <h5>Frameworks</h5>
+                                    <span>UI y automatización</span>
+                                </div>
+                                <div class="skills-wrapper">
+                                    <div class="card-logo"><img src="img/bootstrap.svg" alt="Bootstrap"></div>
+                                    <div class="card-logo"><img src="img/react.svg" alt="React"></div>
+                                    <div class="card-logo"><img src="img/Astro.svg" alt="Astro"></div>
+                                    <div class="card-logo"><img src="img/n8n-color.svg" alt="n8n"></div>
+                                    <div class="card-logo"><img src="img/32px-New_Power_BI_Logo.svg.png" alt="Power BI"></div>
+                                    <div class="card-logo"><img src="img/aws-svgrepo-com.svg" alt="AWS"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills-notes">
+                            <div class="skills-note">
+                                <i class='bx bx-directions'></i>
+                                <div>
+                                    <h4>Servicio Técnico</h4>
+                                    <p>
+                                        Se realizó servicio técnico en una feria de la universidad,
+                                        dando soporte a notebooks en temas de software.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="skills-note">
+                                <i class='bx bx-briefcase-alt-2'></i>
+                                <div>
+                                    <h4>Práctica Profesional</h4>
+                                    <p>
+                                        Trabajé como desarrollador full stack, participando en el rediseño del sistema
+                                        e implementando funciones para facilitar la gestión de practicantes.
+                                        Automaticé procesos como el registro de fechas de inicio y término, además del
+                                        envío de credenciales de acceso a la nube de la empresa mediante Nextcloud.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+           
+            <!-- Portfolio -->
+            <section class="portfolio" id="portfolio">
+                <div class="header section-header">
+                    <div class="info">
+                        <h5>Recent Projects</h5>
+                        <h3>My Porfolio</h3>
+                    </div>
+                </div>
+
+                <div class="portfolio-grid">
+                    <article class="portfolio-card project-card">
+                        <div class="project-media">
+                            <img src="img/gas-sensor.png" alt="Sensor Gas">
+                        </div>
+                        <div class="project-body">
+                            <div class="project-meta">
+                                <span class="project-tag">IoT</span>
+                                <span class="project-year">2024</span>
+                            </div>
+                            <h4>Sensor Gas</h4>
+                            <p>
+                                Proyecto con ESP32 y conexión WiFi, integrado con una app Android.
+                                Me encargué del circuito, la medición en tiempo real y la conectividad con la app.
+                            </p>
+                            <div class="project-links">
+                                <a href="https://github.com/Dcower1" target="_blank" rel="noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card project-card featured">
+                        <div class="project-media">
+                            <img src="img/Sort_Ai.png" alt="SortAI">
+                        </div>
+                        <div class="project-body">
+                            <div class="project-meta">
+                                <span class="project-tag">IA</span>
+                                <span class="project-year">2025</span>
+                            </div>
+                            <h4>SortAI</h4>
+                            <p>
+                                Sistema inteligente para clasificar nueces con visión por computador.
+                                Lideré parte del proyecto, coordinando el equipo, Python, n8n y la documentación.
+                            </p>
+                            <div class="project-links">
+                                <a href="https://github.com/Dcower1/SortAi" target="_blank" rel="noreferrer">GitHub</a>
+                                <a href="https://github.com/Dcower1/SortAi" target="_blank" rel="noreferrer">Ver más</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card project-card">
+                        <div class="project-media">
+                            <img src="img/Wallsmap.png" alt="WallsMap">
+                        </div>
+                        <div class="project-body">
+                            <div class="project-meta">
+                                <span class="project-tag">App</span>
+                                <span class="project-year">2024</span>
+                            </div>
+                            <h4>WallsMap</h4>
+                            <p>
+                                Aplicación inclusiva con asistente de voz para guiar usuarios dentro de la universidad.
+                                Me encargué del módulo visual y de la integración entre módulos.
+                            </p>
+                            <div class="project-links">
+                                <a href="https://github.com/Dcower1" target="_blank" rel="noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="portfolio-cta">
+                    <p>Tengo más ideas y proyectos en camino. Si quieres ver más, revisa mi GitHub o escríbeme.</p>
+                    <a class="portfolio-cta-button" href="https://github.com/Dcower1" target="_blank" rel="noreferrer">Ver más proyectos</a>
+                </div>
+            </section>            <!--certificasos-->
+            <section class="about" id="about">
+                <div class="about-shell">
+                    <div class="about-visual">
+                        <div class="profile-card-frame">
+                            <img src="img/img_perfil1.png" alt="Foto de perfil">
+                        </div>
+                        <div class="about-visual-card">
+                            <span class="about-kicker">Perfil</span>
+                            <h4>Desarrollo de Software, IA y Tecnología</h4>
+                            <p>
+                                Ingeniero en Informática apasionado por el desarrollo de software y la inteligencia artificial. Enfocado en crear soluciones eficientes, aprender continuamente y aportar valor mediante la tecnología y el trabajo colaborativo.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="about-content">
+                        <div class="section-title about-title">
+                            <h5>Sobre mí</h5>
+                        </div>
+
+                        <p class="about-summary">
+                            Ingeniero en Informática con interés en el desarrollo de software, aplicaciones web e inteligencia artificial. Me caracterizo por mi capacidad de aprendizaje continuo, resolución de problemas y trabajo colaborativo, adaptándome con facilidad a nuevos entornos y tecnologías.                        </p>
+
+                        <p class="about-summary">
+                            Durante mi formación participé en diversos proyectos tecnológicos, destacando el desarrollo de un sistema de visión por computadora e inteligencia artificial, donde asumí responsabilidades de coordinación, organización de tareas y apoyo en la documentación técnica del proyecto. Esta experiencia fortaleció mis habilidades de liderazgo, comunicación y gestión de equipos.                        </p>
+
+                        <p class="about-summary">
+                            Actualmente busco incorporarme a una organización donde pueda aportar mis conocimientos técnicos, seguir desarrollando mis competencias profesionales y contribuir a la creación de soluciones tecnológicas que generen valor para las personas y las empresas.                        </p>
+
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <span class="highlight-value">IA</span>
+                                <span class="highlight-label">Visión por computador</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="highlight-value">WEB</span>
+                                <span class="highlight-label">Desarrollo Full Stack</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="highlight-value">SQL</span>
+                                <span class="highlight-label">Bases de Datos</span>
+                            </div>
+                        </div>
+
+                        <div class="cert-slider-container">
+                            <div class="about-subtitle-row">
+                                <h4>Certificados</h4>
+                                <span>Trayectoria académica</span>
+                            </div>
+
+                            <div class="cert-display-area">
+                                <div class="cert-card active" data-id="1">
+                                    <div class="cert-header">
+                                        <span class="cert-date">Marzo 2022</span>
+                                    </div>
+                                    <h3 class="cert-title">INACAP, Chile - La Serena</h3>
+                                    <p class="cert-desc">Ingeniero en Informática</p>
+                                    <a href="#" class="cert-link">Descargar PDF</a>
+                                </div>
+
+                                <div class="cert-card" data-id="2">
+                                    <div class="cert-header">
+                                        <span class="cert-date">Diciembre 2025</span>
+                                    </div>
+                                    <h3 class="cert-title">Certificado Ingeniería Informática</h3>
+                                    <p class="cert-desc">Certificado que acreditaría a Diego Alejandro Rojas González que pasó la carrera en Inacap.</p>
+                                    <a href="#" class="cert-link">Descargar PDF</a>
+                                </div>
+
+                                <div class="cert-card" data-id="3">
+                                    <div class="cert-header">
+                                        <span class="cert-date">Diciembre 2021</span>
+                                    </div>
+                                    <h3 class="cert-title">Certificado 4to Medio</h3>
+                                    <p class="cert-desc">Primer certificado que acredita el egreso del colegio San José.</p>
+                                    <a href="#" class="cert-link">Descargar PDF</a>
+                                </div>
+                            </div>
+
+                            <div class="timeline-nav">
+                                <div class="timeline-line"></div>
+                                <button class="timeline-dot active" onclick="showCert(1)"></button>
+                                <button class="timeline-dot" onclick="showCert(2)"></button>
+                                <button class="timeline-dot" onclick="showCert(3)"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                        <!-- CONTACTO -->
+            <section id="contacto" class="contact">
+                <div class="contact-header section-header">
+                    <h5>Contacto</h5>
+                    <h3>Hablemos</h3>
+                </div>
+
+                <div class="contact-container">
+
+                    <!-- FORMULARIO -->
+                    <div class="contact-form">
+                        <h4>Envíame un mensaje</h4>
+                        <p class="contact-intro">
+                            Tu mensaje será respondido a la brevedad.
+                        </p>
+                        <form>
+                            <div class="form-row">
+                                <div class="field">
+                                    <label for="nombre">Nombre completo</label>
+                                    <input id="nombre" type="text" placeholder="Tu nombre" required>
+                                </div>
+                                <div class="field">
+                                    <label for="correo">Correo electrónico</label>
+                                    <input id="correo" type="email" placeholder="tu@email.com" required>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea id="mensaje" placeholder="Escribe tu mensaje..." rows="6" required></textarea>
+                            </div>
+                            <button type="submit">Enviar mensaje</button>
+                        </form>
+                    </div>
+
+                    <!-- INFO -->
+                    <div class="contact-info">
+                        <h4>Información de contacto</h4>
+                        <p class="info-lead">
+                            Canales directos para responder rápido y sin ruido.
+                        </p>
+
+                        <div class="info-item">
+                            <span class="info-label">
+                                <i class='bx bx-envelope'></i>
+                                Email
+                            </span>
+                            <a href="mailto:diego.rojasygonzalez@gmail.com">diego.rojasygonzalez@gmail.com</a>
+                        </div>
+
+                        <div class="info-item">
+                            <span class="info-label">
+                                <i class='bxl-linkedin-square'></i>
+                                LinkedIn
+                            </span>
+                            <a href="https://www.linkedin.com/in/diego-rojas-gonz%C3%A1lez-7852523a1/" target="_blank">linkedin.com/in/diego-rojas</a>
+                        </div>
+
+                        <div class="info-item">
+                            <span class="info-label">
+                                <i class='bx bx-map'></i>
+                                Ubicación
+                            </span>
+                            <span>La Serena, Chile</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            
+            <footer>
+                <div class="top">
+                    <div class="logo">
+                        <a href="https://youtube.com/">Mi Porfolio</a>
+                    </div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#contacto">Contact</a></li>
+                        <li><a href="https://www.youtube.com/@diegoroja8463">Youtube</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://x.com/DiegoRojas58686"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://www.linkedin.com/in/diego-rojas-gonz%C3%A1lez-7852523a1/"><i class='bx bxl-linkedin-square'></i></a>
+                    </div>
+                </div>
+                <div class="separator"></div>
+                <div class="bottom">
+                    <div class="links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookies Setting</a>
+                    </div>
+                </div>
+            </footer>
+
+
+
+
+
+        </main>
+
+        <aside class="side right"></aside>
+    </div>
+</body>
+
+<script src="js/script.js" defer></script>
+</html>
